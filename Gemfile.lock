@@ -1,11 +1,19 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    cgi (0.3.6)
+    erb (4.0.2)
+      cgi (>= 0.3.3)
+    sqlite3 (1.6.3-arm64-darwin)
+    webrick (1.8.1)
 
 PLATFORMS
   arm64-darwin-22
 
 DEPENDENCIES
+  erb
+  sqlite3
+  webrick
 
 BUNDLED WITH
    2.4.3

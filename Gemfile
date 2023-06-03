@@ -2,4 +2,6 @@
 
 source "https://rubygems.org"
 
-# gem "rails"
+gem 'webrick'
+gem 'erb'
+gem 'sqlite3'

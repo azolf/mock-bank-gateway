@@ -1,0 +1,22 @@
+<!doctype html>
+  <body>
+  Payment Details:
+  <br/>
+  id: <%= @transaction[:id] %>
+  <br/>
+  amount: <%= @transaction[:amount] %>
+  <br/>
+  
+<form action="/finish" method="post">
+  <input type="hidden" value="confirmed" name="status">
+  <input type="hidden" value="<%= id %>" name="id">
+  <input type="submit" value="confirmed">
+</form> 
+
+<form action="/finish" method="post">
+  <input type="hidden" value="canceled" name="status">
+  <input type="hidden" value="<%= id %>" name="id">
+  <input type="submit" value="canceled">
+</form> 
+  </body>
+</html>
