@@ -1,0 +1,7 @@
+version: '3'
+services:
+  app:
+    image: azolf/mock-bank-gateway
+    container_name: mock_bank_gateway
+    ports:
+      - 8888:8888
