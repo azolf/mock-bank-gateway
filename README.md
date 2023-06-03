@@ -102,3 +102,5 @@ $ cd mock-bank-gateway/
 $ bundle install
 $ ruby server.rb
 ```
+
+Open [http://localhost:8888/health_check](http://localhost:8888/health_check) to see it's running.
