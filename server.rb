@@ -2,7 +2,6 @@
 
 require 'webrick'
 require 'securerandom'
-require 'rest-client'
 require 'json'
 require 'base64'
 require 'sqlite3'
